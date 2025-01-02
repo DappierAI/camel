@@ -43,6 +43,7 @@ from .notion_toolkit import NotionToolkit
 from .human_toolkit import HumanToolkit
 from .stripe_toolkit import StripeToolkit
 from .video_toolkit import VideoDownloaderToolkit
+from .dappier_toolkit import DappierToolkit
 
 __all__ = [
     'BaseToolkit',
@@ -73,4 +74,5 @@ __all__ = [
     'VideoDownloaderToolkit',
     'StripeToolkit',
     'MeshyToolkit',
+    'DappierToolkit',
 ]
